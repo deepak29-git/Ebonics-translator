@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+body{
+    background-image: url(/background.jpg);
+    background-position: center;
+    background-size:cover ;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+    /* background-color: rgba(21, 22, 22, 0.548); */
+}
+.navbar{
+    background-color: rgba(7, 183, 241, 0.616);
+    padding: 8px 0;
+}
+.navbar .heading{
+    text-align: center;
+}
+#inputText{
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+#outputContainer{
+    height: 5rem;
+    max-width: 100%;
+    border: 2px solid black;
+    background-color: white;
+    padding-top: 0.5rem;
+    border-radius: 8px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 40%;
+    margin: auto;
+    padding: 100px 0;
+    
+}
+#btnTranslate{
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid ;
+    border-radius: 9px;
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+}
+#btnTranslate:hover{
+    background: rgb(64, 187, 228)
+}
